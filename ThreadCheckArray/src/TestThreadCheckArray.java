@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//date
 public class TestThreadCheckArray {
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
@@ -11,7 +11,7 @@ public class TestThreadCheckArray {
 			System.out.println("Enter numbers for array");
 			
 			for (int index = 0; index < num; index++) 
-				array.get(input.nextInt());
+				array.add(input.nextInt());
 			
 			System.out.println("Enter number");
 			num = input.nextInt();
